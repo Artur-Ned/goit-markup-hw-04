@@ -322,6 +322,11 @@ body {
   color: #757575;
 }
 
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
 /*----------footer--------------*/
 
 .log-part-w {
