@@ -162,12 +162,17 @@ body {
 
 /*----------Герой------------*/
 .herou {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 200px 0px;
   text-align: center;
-  background: #2f303a;
-  /* height: 600px; */
   margin-bottom: 94px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .titleh1 {
