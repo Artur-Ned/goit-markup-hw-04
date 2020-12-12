@@ -373,6 +373,15 @@ body {
   color: var(--accent-color-heder);
 }
 
+.text-foter-links {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143x;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-main-color);
+}
 /*----------body portfoli--------------*/
 /*----------portfolio-nav--------------*/
 
@@ -461,8 +470,17 @@ body {
 .main-footer {
   background-color: #2f303a;
   height: 252px;
-  display: block;
   padding: 60px 0px;
+}
+
+.conteiner-footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .footer-logo {
@@ -477,6 +495,16 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 .adress-footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.social-list-foter .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*rgba(255, 255, 255, 0.1)
+
+
+*/
+
 /*всем кнопкам задаём рамку прозрачную 
 .btn-heroy {
   border: 1px solid transparent
