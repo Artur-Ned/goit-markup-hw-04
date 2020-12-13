@@ -343,7 +343,7 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  /* background-color: #9aff47; */
+  background-color: var(--background-main-color);
   border-radius: 50%;
 }
 
@@ -381,6 +381,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-main-color);
+  margin-bottom: 20px;
 }
 /*----------body portfoli--------------*/
 /*----------portfolio-nav--------------*/
@@ -496,12 +497,55 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   margin-bottom: 9px;
 }
 
-.social-list-foter .social-list-link {
-  background-color: rgba(255, 255, 255, 0.1);
+
+.social-list-foter {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 206px;
 }
+
+.footer-list {
+  display: flex;
+}
+.footer-item:not(:first-child) {
+  margin-left: 70px;
+  margin-top: 17px;
+}
+
+/*========================footerlink===============*/
+  .footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-list-link:hover .social-list-icon,
+.footer-social-list-link:focus .social-list-icon {
+  fill: var(--background-main-color);
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #2196F3;
+}
+
+.footer-social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--background-main-color);
+}
+
+
+
+
 
 /*rgba(255, 255, 255, 0.1)
 
+ховер background: rgba(33, 150, 243, 1);
 
 */
 
@@ -519,4 +563,4 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 text-align: center;
 
 } чтобы задать центр тексту нужно его родителю задать
-*/
+
