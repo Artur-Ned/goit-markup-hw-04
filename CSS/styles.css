@@ -162,11 +162,11 @@ body {
 }
 
 .header-mail::before{
-content: "";
-width: 15px;
-height: 15px;
+content: "ууууууу";
+width: 16px;
+height: 12px;
 background-image: url("./images/sprite.svg#icon-envelope");
-/* background-color: #ff6347; */
+background-color: #ff6347;
 
 }
 
@@ -250,7 +250,19 @@ background-image: url("./images/sprite.svg#icon-envelope");
   letter-spacing: 0.03em;
   color: #757575;
 }
+.softskil-exlus-icon {
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.exlus-box-border {
+width: 270px;
+height: 120px;
+background-color: #F5F4FA;
+display: flex;
+justify-content:center;
+padding: 25px;
 
+}
 /*----------works foto--------------*/
 .our-job h2 {
   font-weight: 700;
