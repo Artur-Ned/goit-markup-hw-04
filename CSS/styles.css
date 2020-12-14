@@ -150,6 +150,7 @@ body {
   color: #757575;
   font-style: normal;
   text-decoration: none;
+  min-width: 161px;
 }
 
 .header-mail:hover,
@@ -158,6 +159,15 @@ body {
 .header-tel:focus {
   color: var(--accent-color-heder);
   text-decoration: none;
+}
+
+.header-mail::before{
+content: "";
+width: 15px;
+height: 15px;
+background-image: url("./images/sprite.svg#icon-envelope");
+/* background-color: #ff6347; */
+
 }
 
 /*----------Герой------------*/
