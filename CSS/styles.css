@@ -161,13 +161,18 @@ body {
   text-decoration: none;
 }
 
-.header-mail::before{
+
+.tell-icon {
+  width: 16px;
+  height: 12px;
+  
+}
+/* .header-mail::before{
 content: "ууууууу";
 width: 16px;
 height: 12px;
-background-image: url("./images/sprite.svg#icon-envelope");
-background-color: #ff6347;
-
+background-image: url("../images/sprite.svg#icon-astronaut");
+background-color: #ff6347; */
 }
 
 /*----------Герой------------*/
@@ -391,6 +396,18 @@ margin-bottom: 30px;
   align-content: stretch;
 }
 
+.regular-customers-titl {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
 
 
 
