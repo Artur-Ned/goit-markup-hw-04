@@ -44,6 +44,7 @@ img {
   --accent-color-footer: #ff6347;
   --all-text-color: #212121;
   --background-main-color: #ffffff;
+  --gray: rgba(117, 117, 117, 1);
 }
 
 /*outline: 2px soloid tomato - рамка*/
@@ -147,7 +148,7 @@ body {
   font-size: 14px;
   line-height: 1, 142px;
   letter-spacing: 2%;
-  color: #757575;
+  color: var(--gray);
   font-style: normal;
   text-decoration: none;
   min-width: 161px;
@@ -161,12 +162,19 @@ body {
   text-decoration: none;
 }
 
-
-.tell-icon {
-  width: 16px;
-  height: 12px;
-  
+ .header-mail:hover .heder-mail-icon,
+ .header-mail:focus .heder-mail-icon,
+ .header-tel:hover .heder-tell-icon,
+ .header-tel:focus .heder-tell-icon  {
+  fill: var(--accent-color-heder);
 }
+
+.heder-mail-icon,
+.heder-tell-icon {
+  fill: var(--gray);
+  margin-right: 10px;
+}
+
 /* .header-mail::before{
 content: "ууууууу";
 width: 16px;
@@ -253,7 +261,7 @@ background-color: #ff6347; */
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray);
 }
 .softskil-exlus-icon {
   background: #F5F4FA;
@@ -352,7 +360,7 @@ margin-bottom: 30px;
   line-height: 1, 188;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--gray);
   margin-bottom: 16px;
 }
 
@@ -390,6 +398,11 @@ margin-bottom: 30px;
   fill: rgba(175, 177, 184, 1);
 }
 /*----------Постоянные клиенты--------------*/
+
+.regular-customers {
+padding: 94px 0px;
+}
+
 .regular-customers-list {
   display: flex;
   justify-content: center;
@@ -397,19 +410,20 @@ margin-bottom: 30px;
 }
 
 .regular-customers-titl {
-font-family: Roboto;
-font-style: normal;
+font-family: var(--main-font);
+font-style: 700;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1,167;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
-
+color: var(--all-text-color);
+margin-bottom: 50px;
 }
 
-
+.regular-customer-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 
 /*----------footer--------------*/
