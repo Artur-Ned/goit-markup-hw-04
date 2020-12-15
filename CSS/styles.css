@@ -86,7 +86,9 @@ body {
 
 .adress-list {
   display: flex;
+  align-items:baseline;
 }
+
 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -128,6 +130,7 @@ body {
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--accent-color-heder);
+  outline: none;
 }
 
 .p-button:hover,
@@ -136,6 +139,7 @@ body {
   color: var(--background-main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 
 .nav .nav-list-link.current {
@@ -154,12 +158,18 @@ body {
   min-width: 161px;
 }
 
+.header-tel {
+  display: flex;
+  align-items: center;
+}
+
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color-heder);
   text-decoration: none;
+  outline: none;
 }
 
  .header-mail:hover .heder-mail-icon,
@@ -167,6 +177,7 @@ body {
  .header-tel:hover .heder-tell-icon,
  .header-tel:focus .heder-tell-icon  {
   fill: var(--accent-color-heder);
+  outline: none;
 }
 
 .heder-mail-icon,
@@ -386,10 +397,12 @@ margin-bottom: 30px;
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--background-main-color);
+  outline: none;
 }
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: rgba(33, 150, 243, 1);
+  outline: none;
 }
 
 .social-list-icon {
@@ -435,6 +448,7 @@ margin-bottom: 50px;
 .adres-footer-link:hover,
 .adres-footer-link:focus {
   color: var(--accent-color-heder);
+  outline: none;
 }
 
 .text-foter-links {
@@ -495,6 +509,12 @@ margin-bottom: 50px;
   margin-bottom: 30px;
   border: 1px solid#EEEEEE;
 }
+.p-work-item:focus,
+.p-work-item:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;  
+}
+
 .p-work-item:nth-child(3n) {
   margin-right: 0px;
 }
@@ -591,10 +611,12 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 .footer-social-list-link:hover .social-list-icon,
 .footer-social-list-link:focus .social-list-icon {
   fill: var(--background-main-color);
+  outline: none;
 }
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: #2196F3;
+  outline: none;
 }
 
 .footer-social-list-icon {
