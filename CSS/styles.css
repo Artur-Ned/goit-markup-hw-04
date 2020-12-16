@@ -252,6 +252,11 @@ background-color: #ff6347; */
   margin-bottom: 94px;
 }
 
+.exluse-box {
+  display: block;
+  width: 270px;
+}
+
 .exclus-title {
   font-size: 14px;
   line-height: 1, 142;
@@ -437,7 +442,17 @@ margin-bottom: 50px;
 .regular-customer-item:not(:last-child) {
   margin-right: 30px;
 }
+.regular-customer-item {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  }
 
+.regular-customer-link {
+  justify-content: center;
+  align-items: center;
+}
 
 /*----------footer--------------*/
 
