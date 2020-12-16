@@ -447,6 +447,9 @@ margin-bottom: 50px;
   border-radius: 4px;
   width: 170px;
   height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
 
 .regular-customer-link {
