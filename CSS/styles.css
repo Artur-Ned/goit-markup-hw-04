@@ -566,13 +566,9 @@ outline: none;
 }
 
 .p-work-list-box {
-  display: block;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
   padding: 20px 24px;
-  width: 370px;
-  height: auto;
- }
+  border: 1px solid #EEEEEE;
+  }
 
 .p-worklist-title {
   display: block;
