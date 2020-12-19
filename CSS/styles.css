@@ -533,7 +533,6 @@ outline: none;
 }
 
 .p-work-item {
-  /* display: block; */
   width: 370px;
   height: auto;
   margin-right: 30px;
@@ -562,13 +561,11 @@ outline: none;
 
 .p-work-item img {
   display: block;
-
-  
 }
 
 .p-work-list-box {
   padding: 20px 24px;
-   }
+}
 
 .p-worklist-title {
   display: block;
