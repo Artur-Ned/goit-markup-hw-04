@@ -188,12 +188,6 @@ body {
   margin-right: 10px;
 }
 
-/* .header-mail::before{
-content: "ууууууу";
-width: 16px;
-height: 12px;
-background-image: url("../images/sprite.svg#icon-astronaut");
-background-color: #ff6347; */
 
 
 /*----------Герой------------*/
@@ -539,17 +533,23 @@ outline: none;
 }
 
 .p-work-item {
+  /* display: block; */
   width: 370px;
-  height: 404px;
+  height: auto;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid#EEEEEE;
+  border: 1px solid #EEEEEE;
 }
-.p-work-item:focus,
-.p-work-item:hover {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  outline: none;  
-}
+
+.p-work-item-link {
+  display: block;
+  }
+
+.p-work-item-link:focus,
+.p-work-item-link:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 
 .p-work-item:nth-child(3n) {
   margin-right: 0px;
@@ -560,11 +560,22 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 
 .p-work-item img {
-  margin-bottom: 20px;
+  display: block;
+
+  
 }
 
+.p-work-list-box {
+  display: block;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  padding: 20px 24px;
+  width: 370px;
+  height: auto;
+ }
+
 .p-worklist-title {
-  /* display: block; */
+  display: block;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
@@ -572,17 +583,18 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   letter-spacing: 0.06em;
   color: var(--all-text-color);
   margin-bottom: 4px;
-  padding-left: 24px;
+ 
 }
 
 .p-worklist-text {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 875;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 20px;
-  padding-left: 24px;
+  /* margin-bottom: 20px;
+  padding-left: 24px; */
 }
 
 /*==============portfolio footer===================*/
