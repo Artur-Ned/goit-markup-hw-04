@@ -543,6 +543,7 @@ outline: none;
 
 .p-work-item-link {
   display: block;
+  overflow: hidden;
   }
 
 .p-work-item-link:focus,
@@ -567,8 +568,7 @@ outline: none;
 
 .p-work-list-box {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
-  }
+   }
 
 .p-worklist-title {
   display: block;
@@ -578,9 +578,7 @@ outline: none;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--all-text-color);
-  margin-bottom: 4px;
- 
-}
+  }
 
 .p-worklist-text {
   display: block;
